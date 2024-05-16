@@ -18,4 +18,4 @@ To use the STimage-1K4M dataset in your research, please email [jiawenn@email.un
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+All code is licensed under the MIT License - see the LICENSE.md file for details.
