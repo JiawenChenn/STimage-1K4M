@@ -1,0 +1,49 @@
+{
+  "@type": "sc:Dataset",
+  "name": "Example data",
+  "description": "Example coordinates data.",
+  "license": "MIT License",
+  "url": "https://github.com/JiawenChenn/STimage-1K4M",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "Human_Breast_Andersson_10142021_ST_A1_coord.csv",
+      "name": "Human_Breast_Andersson_10142021_ST_A1_coord.csv",
+      "contentUrl": "example/Human_Breast_Andersson_10142021_ST_A1_coord.csv",
+      "encodingFormat": "text/csv",
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "name": "coord",
+      "description": "Spatial coordinate data.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "name": "yaxis",
+          "description": "The yaxis for spot.",
+          "dataType": "sc:Float",
+          "references": {
+            "fileObject": { "@id": "Human_Breast_Andersson_10142021_ST_A1_coord.csv" },
+            "extract": {
+              "column": "yaxis"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "xaxis",
+          "description": "The xaxis for spot.",
+          "dataType": "sc:Float",
+          "references": {
+            "fileObject": { "@id": "Human_Breast_Andersson_10142021_ST_A1_coord.csv" },
+            "extract": {
+              "column": "xaxis"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
