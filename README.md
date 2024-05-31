@@ -48,6 +48,9 @@ The [code_reproducibility](code_reproducibility) folder holds the code for data 
 ## Acknowledgement
 The fine-tuning and evaluation codes borrows heavily from [CLIP](https://github.com/openai/CLIP/issues/83) and [PLIP](https://github.com/PathologyFoundation/plip/). 
 
+## Citation
+The bibtex will be posted soon.
+
 ## License
 
 All code is licensed under the MIT License - see the LICENSE.md file for details.
