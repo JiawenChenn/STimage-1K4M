@@ -49,7 +49,15 @@ The [code_reproducibility](code_reproducibility) folder holds the code for data 
 The fine-tuning and evaluation codes borrows heavily from [CLIP](https://github.com/openai/CLIP/issues/83) and [PLIP](https://github.com/PathologyFoundation/plip/). 
 
 ## Citation
-The bibtex will be posted soon.
+
+@misc{chen2024stimage1k4m,
+      title={STimage-1K4M: A histopathology image-gene expression dataset for spatial transcriptomics}, 
+      author={Jiawen Chen and Muqing Zhou and Wenrong Wu and Jinwei Zhang and Yun Li and Didong Li},
+      year={2024},
+      eprint={2406.06393},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 
 ## License
 
