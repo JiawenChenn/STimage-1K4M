@@ -1,0 +1,37 @@
+header:
+
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      # @end locale config
+    url: docs/00_about
+
+  - titles:
+      # @start locale config
+      en      : &EN       Document
+      # @end locale config
+    url: docs/01-make-meta
+
+document_nav:
+  - title:  Data processing
+    children:
+      - title:  Meta data cleaning
+        url:    docs/01-make-meta
+      - title:  Check spot location
+        url:    docs/02-check_image
+      - title:  Crop spot-level image
+        url:    docs/03-crop-image
+      - title:  Gene expression processing
+        url:    docs/04-gene-exp-hvg
+  - title:  Fine-tuning
+    children:
+      - title:  Fine-tune CLIP
+        url:    docs/05_clip_human_brain_DLPFC
+      - title:  Fine-tune PLIP
+        url:    docs/06_plip_human_brain_DLPFC
+  - title:  Evaluation
+    children:
+      - title:  Linear probing
+        url:    docs/07-linear_probing
+      - title:  Image representation learning
+        url:    docs/08-embedding_score
