@@ -50,6 +50,7 @@ The fine-tuning and evaluation codes borrows heavily from [CLIP](https://github.
 
 ## Citation
 
+```
 @misc{chen2024stimage1k4m,
       title={STimage-1K4M: A histopathology image-gene expression dataset for spatial transcriptomics}, 
       author={Jiawen Chen and Muqing Zhou and Wenrong Wu and Jinwei Zhang and Yun Li and Didong Li},
@@ -58,6 +59,7 @@ The fine-tuning and evaluation codes borrows heavily from [CLIP](https://github.
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+```
 
 ## License
 
