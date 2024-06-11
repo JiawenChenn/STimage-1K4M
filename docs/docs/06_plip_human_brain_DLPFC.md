@@ -6,7 +6,7 @@ sidebar:
 permalink: docs/06_plip_human_brain_DLPFC
 ---
 
-This document includes code for fine-tuning PLIP model on human DLPFC data. This code is adopted from [CLIP repository](https://github.com/openai/CLIP/issues/83).
+This document includes code for fine-tuning PLIP model on human DLPFC data. This code is adopted from [CLIP repository](https://github.com/openai/CLIP/issues/83). You need to download [model_st.py](doc_data/model_st.py) and load essential functions.
 
 ```python
 import torch

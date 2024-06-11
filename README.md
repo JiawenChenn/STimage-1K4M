@@ -36,14 +36,8 @@ The data structure is organized as follows:
 ├── VisiumHD                # Include all data for tech: VisiumHD, same structure as ST
 ```
 ## Repository structure
-The [code_reproducibility](code_reproducibility) folder holds the code for data processing and reproducing evaluation result in the paper.
 
-```bash
-├── data_collection         # Code for making meta file and checking spot coordinates.
-├── data_process            # Code for cropping image to make spot level and gene expression processing.
-├── evaluation              # Code for linear-probing and calculate embedding scores.
-├── finetune                # Code for fine-tuning CLIP and PLIP models.
-```
+The code for data processing and reproducing evaluation result in the paper are in [Document](https://jiawenchenn.github.io/STimage-1K4M/docs/01-make-meta).
 
 ## Acknowledgement
 The fine-tuning and evaluation codes borrows heavily from [CLIP](https://github.com/openai/CLIP/issues/83) and [PLIP](https://github.com/PathologyFoundation/plip/). 
