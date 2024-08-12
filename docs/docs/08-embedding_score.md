@@ -64,5 +64,5 @@ for model_name in model_name_zero:
 result = pd.DataFrame({'model':model,'silhouette_score':sil_score,
                        'Calinski-Harabasz_score':ch_score,'Davies-Bouldin_score':db_score,'slide':slide_all})
 
-result.to_csv('embedding_score.csv',index=False,sep='\t')
+result.to_csv('silhouette_score_32.csv',index=False,sep='\t')
 ```

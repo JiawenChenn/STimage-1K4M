@@ -35,3 +35,15 @@ document_nav:
         url:    docs/07-linear_probing
       - title:  Image representation learning
         url:    docs/08-embedding_score
+      - title:  Gene expression prediction
+        url:    docs/11-gene-exp-prediction
+      - title:  Nuclear segmentation
+        url:    docs/12-segmentation
+      - title:  Code for reproducing figures
+        url:    docs/13-code-for_figs
+  - title:  Resources
+    children:
+      - title:  Intro to ST technology
+        url:    docs/09_for_new_to_ST
+      - title:  ST data analysis quick start
+        url:    docs/10_ST_analysis_quick_start

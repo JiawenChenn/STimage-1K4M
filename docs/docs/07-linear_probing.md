@@ -6,7 +6,7 @@ sidebar:
 permalink: docs/07-linear_probing
 ---
 
-We evaluated the performance of the fine-tuned models via linear probing. This involved training a simple linear classifier on 80\% of the data, sampled with five different seeds, using the embeddings from both the fine-tuned and zero-shot models (CLIP, PLIP, and UNI). This code is adopted from [PLIP GitHub repository](https://github.com/PathologyFoundation/plip/tree/main/reproducibility).
+We evaluated the performance of the fine-tuned models via linear probing. We fit a panelized logistic regression model to predict brain layer (WM, L1-L6) using image embeddings. This involved training a simple linear classifier on 80\% of the data, sampled with five different seeds, using the embeddings from both the fine-tuned and zero-shot models (CLIP, PLIP, and UNI). This code is adopted from [PLIP GitHub repository](https://github.com/PathologyFoundation/plip/tree/main/reproducibility).
 
 ```python
 # python
