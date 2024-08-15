@@ -17,7 +17,7 @@ See example folder for an example slide from Andersson et al. (pmid: 34650042).
 
 ## Getting Started
 
-To use the STimage-1K4M dataset in your research, please access the dataset via [Hugging Face](https://huggingface.co/datasets/jiawennnn/STimage-1K4M).
+To use the STimage-1K4M dataset in your research, please access the dataset via [Hugging Face](https://huggingface.co/datasets/jiawennnn/STimage-1K4M). We note here that we are still uploading the files due to limited rate. Please fill your email in this [Google form](https://forms.gle/3Waa4FQnqpK8UGSY7) so that we can share the link.
 
 
 ## Data structure
