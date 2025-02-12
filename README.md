@@ -4,6 +4,11 @@ Welcome to the STimage-1K4M Dataset repository. This dataset is designed to fost
 
 ![teaser](aux/f1.png "teaser")
 
+## Update
+
+***Feb 12, 2025***
+We corrected a typo in meta file (changed "Human_Brain+Kidney_10X_02212023_Visium" to "Mouse_Brain+Kidney_10X_02212023_Visium"). Please refer to **meta_all_gene02122025.csv** for the newest meta data.
+
 
 ## Dataset Description
 
