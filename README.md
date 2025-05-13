@@ -49,14 +49,19 @@ The fine-tuning and evaluation codes borrows heavily from [CLIP](https://github.
 ## Citation
 
 ```
-@misc{chen2024stimage1k4m,
-      title={STimage-1K4M: A histopathology image-gene expression dataset for spatial transcriptomics}, 
-      author={Jiawen Chen and Muqing Zhou and Wenrong Wu and Jinwei Zhang and Yun Li and Didong Li},
-      year={2024},
-      eprint={2406.06393},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+
+@inproceedings{NEURIPS2024_3ef2b740,
+ author = {Chen, Jiawen and Zhou, Muqing and Wu, Wenrong and Zhang, Jinwei and Li, Yun and Li, Didong},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {35796--35823},
+ publisher = {Curran Associates, Inc.},
+ title = {STimage-1K4M: A histopathology image-gene expression dataset for spatial transcriptomics},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/3ef2b740cb22dcce67c20989cb3d3fce-Paper-Datasets_and_Benchmarks_Track.pdf},
+ volume = {37},
+ year = {2024}
 }
+
 ```
 
 ## License
